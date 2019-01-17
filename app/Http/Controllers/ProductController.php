@@ -16,6 +16,7 @@ class ProductController extends Controller
      */
     public function index()
     {
+        //git comment is added
        return  ProductCollection::collection(Product::paginate(5));
     }
 
